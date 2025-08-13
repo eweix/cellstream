@@ -29,7 +29,7 @@ import progressbar
 import torch
 from torch_scatter import scatter_mean, scatter_std
 
-from ..image.utils import normalize_dims, downsample
+from ..image.utils import downsample, normalize_dims
 from ..image.utils import normalize_histogram as norm_hist
 
 
